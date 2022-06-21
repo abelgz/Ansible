@@ -1,0 +1,3 @@
+ansible_connection: ssh
+ansible_host: 743cdc659e3c.mylabserver.com
+ansible_user: cloud_user

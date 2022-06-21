@@ -1,7 +1,2 @@
-[control]
-743cdc659e1c.mylabserver.com
-
 [workers]
-743cdc659e2c.mylabserver.com
-743cdc659e3c.mylabserver.com
-743cdc659e4c.mylabserver.com
+worker[1:3]
