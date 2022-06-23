@@ -3,6 +3,11 @@
   gather_facts: True
 
   tasks:
+
     - name: Prueba
       debug:
-        msg: "Esto es una prueba, soy el"
+        msg: "Esto es una prueba, soy el {{ ansible_facts.hostname }}"
+
+    - name: IP
+      debug:
+        msg: "Este es mi SO: {{ ansible_facts.os_family }}"
