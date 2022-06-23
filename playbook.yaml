@@ -1,0 +1,6 @@
+- hosts: all
+
+  tasks:
+    - name: Prueba
+      debug:
+        msg: "Esto es una prueba, soy el"
